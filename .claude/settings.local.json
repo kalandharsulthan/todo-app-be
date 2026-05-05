@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(mvn wrapper:wrapper -q)",
+      "Bash(./mvnw compile *)",
+      "Bash(./mvnw test *)",
+      "Bash(./mvnw spring-boot:run *)",
+      "Bash(curl -s -X POST http://localhost:8080/api/v1/todos -H 'Content-Type: application/json' -d '{ *)",
+      "Bash(jq)",
+      "Bash(curl -s \"http://localhost:8080/api/v1/todos?page=0&size=10\")",
+      "Bash(gh auth *)",
+      "Bash(git --version)"
+    ]
+  }
+}
