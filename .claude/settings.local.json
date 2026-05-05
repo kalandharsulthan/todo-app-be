@@ -10,7 +10,12 @@
       "Bash(jq)",
       "Bash(curl -s \"http://localhost:8080/api/v1/todos?page=0&size=10\")",
       "Bash(gh auth *)",
-      "Bash(git --version)"
+      "Bash(git --version)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
